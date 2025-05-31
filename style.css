@@ -2,3 +2,14 @@ html {
     color: cadetblue;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.bold {
+    font-weight: 900;
+}
+#header{
+    background-image:l(https://i.pinimg.com/1200x/e2/e8/15/e2e8154743bf08148f5852fa393c713e.jpg);
+    background-size:cover;
+    height: 50%;
+    color: rgb(19, 92, 114);
+    
+}
