@@ -1,5 +1,5 @@
 html {
-    color: cadetblue;
+    color: rgb(0, 0, 0);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -11,5 +11,11 @@ html {
     background-size:cover;
     height: 50%;
     color: rgb(19, 92, 114);
-    
+    font-size: 2rem;
+    border-radius: 0 0 1.2em 1.2em;
+
+    display: flex;
+    allign-items: center;
+    flex-direction: column;
+    padding-bottom: 5%;
 }
