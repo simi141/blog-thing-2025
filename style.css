@@ -7,10 +7,10 @@ html {
     font-weight: 900;
 }
 #header{
-    background-image: url("https://i.pinimg.com/1200x/e2/e8/15/e2e8154743bf08148f5852fa393c713e.jpg");
+    background-image: url("https://i.pinimg.com/736x/6e/f8/41/6ef84128d4af25c58595ebdf0ababc58.jpg");
     background-size:cover;
     height: 50%;
-    color: rgb(19, 92, 114);
+    color: rgb(255, 255, 255);
     font-size: 2rem;
     border-radius: 0 0 1.2em 1.2em;
 
@@ -22,7 +22,7 @@ html {
 
 .navbar {
 
-    background-color:rgb(144, 182, 197);
+    background-color:rgb(99, 18, 18);
     display: flex;
     justify-content: center;
 }
@@ -58,12 +58,12 @@ padding: 1em;
 
 .accordion-header {
     width: 100%;
-    background-color:rgb(144, 182, 197) ;
+    background-color:rgb(107, 20, 20) ;
     border: none;
     padding: 1em 1em 1em 3em;
     text-align: center;
     font-size: 1.1rem;
-    color:rgb(144, 182, 197) ;
+    color:rgb(255, 255, 255) ;
     cursor: pointer;
     transition: 0.5s;
 }
