@@ -7,7 +7,7 @@ html {
     font-weight: 900;
 }
 #header{
-    background-image:l(https://i.pinimg.com/1200x/e2/e8/15/e2e8154743bf08148f5852fa393c713e.jpg);
+    background-image: url("https://i.pinimg.com/1200x/e2/e8/15/e2e8154743bf08148f5852fa393c713e.jpg");
     background-size:cover;
     height: 50%;
     color: rgb(19, 92, 114);
@@ -15,7 +15,55 @@ html {
     border-radius: 0 0 1.2em 1.2em;
 
     display: flex;
-    allign-items: center;
+    align-items: center;
     flex-direction: column;
     padding-bottom: 5%;
+}
+
+.navbar {
+
+    background-color:rgb(144, 182, 197);
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 1.1rem;
+    transition: 0.3s;
+    padding: 0.5em 1.0em;
+    border-radius: 0.5em;
+}
+
+.nav-links li a/:hover {
+    background-color:aquamarine;}
+
+.title {
+text-align: center;
+padding: 1em;
+}
+
+.current {
+
+    text-decoration: underline dotted aliceblue
+}
+
+.accordion-header {
+    width: 100%;
+    background-color:rgb(144, 182, 197) ;
+    border: none;
+    padding: 1em 1em 1em 3em;
+    text-align: center;
+    font-size: 1.1rem;
+    color:rgb(144, 182, 197) ;
+    cursor: pointer;
+    transition: 0.5s;
 }

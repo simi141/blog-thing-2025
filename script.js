@@ -7,5 +7,9 @@ function greeting(name) {
 }
 
 greeting("Simran");
+function saveName() {
+    let newName = document.getElementById("greeter").value;
+    document.getElementById("username").textContent = newName;  // text feld value from the user
+    document.getElementById("greeter").value = "";
+}
 
-let newName = document. getElementById("greeter").ariaValueMax;
