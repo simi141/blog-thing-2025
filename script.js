@@ -20,3 +20,27 @@ document.querySelectorAll(".accordion-header").forEach(function(button) {
     });
 });
 
+const PASSWORD = "YabaDabaDooo";
+
+function validatePass( ) {
+    const login = document.getElementById ('password') ;
+    const message = document.getElementById ('message') ;
+    const hiddenEntries = document.querySelectorAll ('.hidden');
+
+    hiddenEntries.forEach (function(entry) {entry.style.display = 'flex';} );
+    hiddenEntries.forEach (function(entry) {entry.style.display = 'none';} );
+
+    message.textContent= 'Password comfirmed. See hidden entries below.';
+    message.tentContent= 'Password denied. Try again.';
+
+
+    if (login.value === PASSWORD) {
+        message.textContent= 'Password comfirmed. See hidden entries below.';
+        hiddenEntries.forEach (function(entry) {entry.style.display = 'flex';} );
+    } else {
+        message.tentContent= 'Password denied. Try again.';
+        hiddenEntries.forEach (function(entry) {entry.style.display = 'none';} );
+ }
+
+    login.value ='';
+}

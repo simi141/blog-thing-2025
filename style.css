@@ -68,9 +68,6 @@ padding: 1em;
     transition: 0.5s;
 }
 
-.hidden {
-    display: none !important; /*important*/
-}
 
 .blog-entry {
     display: flex;
@@ -78,6 +75,10 @@ padding: 1em;
     gap: 2em;
     padding-right: 2%;
     margin-bottom: 2em;
+}
+
+.hidden {
+    display: none;
 }
 
 .blog-entry img {
